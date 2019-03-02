@@ -1,13 +1,13 @@
 # RASPBERRY PI KERNEL NAME EDITING
 This repository is for exercise of Embedded Operating System course (TKEE163251) in Electrical and Information Engineering of Universitas Gadjah Mada.
 
-## Requirement
+## Requirements
 * Raspberry Pi 3B/3B+
 * PC
 * SDCard
 
 ## Disclaimer
-This tutorial is using cross-compiler building instead of local building, for further information please kindly check [here](https://www.raspberrypi.org/documentation/linux/kernel/building.md).
+This tutorial is using cross-compiler building instead of local building, for further information please kindly check [here](https://www.raspberrypi.org/documentation/linux/kernel/building.md). SDCard must be installed with Raspbian using [Etcher](https://www.raspberrypi.org/magpi/pi-sd-etcher/).
 
 ## How to Use:
 * Run kernel-name-editing.sh.
