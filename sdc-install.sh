@@ -1,8 +1,12 @@
 #!/bin/bash
 cd ~/linux
-mkdir mnt
-mkdir mnt/fat32
-mkdir mnt/ext4
+KERNEL=kernel7
+# To check if a directory exists in a shell script you can use the following:
+if [ ! -d ~/linux/mnt ]; then
+  mkdir mnt
+  mkdir mnt/fat32
+  mkdir mnt/ext4
+fi
 sudo mount /dev/sdc1 mnt/fat32
 sudo mount /dev/sdc2 mnt/ext4
 
